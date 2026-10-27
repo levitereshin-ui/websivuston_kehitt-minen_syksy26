@@ -14,7 +14,8 @@ p {
   margin: 10px;
   background-color: #e2dfcbca;
   border: 1px solid #e5ddcece;
-  width: 400px;
+  width: 350px;
+  box-sizing: border-box;
 }
 table {
       width: 100%;
@@ -45,7 +46,8 @@ table {
       padding: 8px;
       border: 1px solid #ddd;
       border-radius: 4px;
-      width: 250px;
+      width: 100%;
+      box-sizing: border-box;
     }
     
     input[type="submit"] {
