@@ -10,11 +10,12 @@ p {
       font-size: 2em;
     }
     .content-box {
-  padding: 20px;
   margin: 10px;
+  padding: 20px;
   background-color: #e2dfcbca;
   border: 1px solid #e5ddcece;
-  width: 350px;
+  width: 450px;
+  max-width: 95%;
   box-sizing: border-box;
 }
 table {
@@ -23,19 +24,19 @@ table {
     }
     
     th, td {
-      border: 1px solid #ddd;
+      border: 3px solid #373f31;
       padding: 8px;
       text-align: left;
     }
     
     th {
-      background-color: #f2f2f2;
+      background-color: #88a087;
     }
     
     form {
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 2px;
     }
     
     label {
@@ -43,10 +44,10 @@ table {
     }
     
     input[type="text"], input[type="email"] {
-      padding: 8px;
+      padding: 6px;
       border: 1px solid #ddd;
       border-radius: 4px;
-      width: 100%;
+      width: 220px;
       box-sizing: border-box;
     }
     
