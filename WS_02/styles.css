@@ -3,7 +3,7 @@ p {
     }
     
     body {
-      background-color: rgb(232, 215, 191);
+      background-color: rgb(211, 201, 186);
     }
     
     h1 {
@@ -12,6 +12,6 @@ p {
     .content-box {
   padding: 20px;
   margin: 10px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
+  background-color: #e2dfcbca;
+  border: 1px solid #e5ddcece;
 }
