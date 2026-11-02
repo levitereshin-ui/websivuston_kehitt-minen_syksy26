@@ -108,3 +108,16 @@ table {
       .filter-image:hover {
         filter: grayscale(0%);
       }
+      .quote {
+        position: relative;
+        padding-left: 20px;
+        font-style: italic;
+      }
+      .quote::before {
+        content: '“';
+        font-size: 40px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: lightgray;
+      }
