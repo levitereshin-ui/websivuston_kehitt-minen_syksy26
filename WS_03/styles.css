@@ -66,11 +66,11 @@ table {
       background-color: #3d543e;
     }
     .transition-button {
-        background-color: lightblue;
+        background-color: #4a6b52;
         padding: 10px 20px;
         border: none;
         cursor: pointer;
-        transition: background-color 0.3s ease;
+        transition: background-color 0.3s steps(6);
       }
       
       .transition-button:hover {
@@ -110,7 +110,7 @@ table {
       }
       .quote {
         position: relative;
-        padding-left: 20px;
+        padding-left: 35px;
         font-style: italic;
       }
       .quote::before {
@@ -119,5 +119,5 @@ table {
         position: absolute;
         left: 0;
         top: 0;
-        color: lightgray;
+        color: rgb(108, 117, 125);
       }
