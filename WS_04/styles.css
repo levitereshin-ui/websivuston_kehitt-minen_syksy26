@@ -145,13 +145,13 @@ table {
 
 @media (max-width: 600px) {
   .responsive-box {
-    background-color: lightcoral;
+    background-color: rgb(108, 117, 125);
   }
 }
 
 @media (min-width: 601px) {
   .responsive-box {
-    background-color: lightseagreen;
+    background-color: #4a6b52;
   }
 }
 .flex-container {
@@ -228,9 +228,4 @@ nav ul li a {
     border-radius: 8px;
     border: 2px solid #5d4037;
     transition: transform 0.2s ease, border-color 0.2s ease;
-}
-
-nav ul li a:hover {
-    transform: translateY(-2px);
-    border-color: #ffb300;
 }
