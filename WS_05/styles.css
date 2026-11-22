@@ -229,3 +229,18 @@ nav ul li a {
     border: 2px solid #5d4037;
     transition: transform 0.2s ease, border-color 0.2s ease;
 }
+.responsive-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .column {
+      flex: 1;
+      padding: 10px;
+    }
+    
+    @media (max-width: 600px) {
+      .column {
+        flex: 100%;
+      }
+    }
