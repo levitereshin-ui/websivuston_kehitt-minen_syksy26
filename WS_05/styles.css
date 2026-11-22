@@ -248,3 +248,19 @@ nav ul li a {
       max-width: 100%;
       height: auto;
     }
+    .media-query-box {
+      padding: 20px;
+      text-align: center;
+    }
+    
+    @media (max-width: 600px) {
+      .media-query-box {
+        background-color: #f4a460;
+      }
+    }
+    
+    @media (min-width: 601px) {
+      .media-query-box {
+        background-color: #e6d2b5;
+      }
+    }
